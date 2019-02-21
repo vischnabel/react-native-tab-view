@@ -44,7 +44,7 @@ export default class TabView<T: Route> extends React.Component<
   State
 > {
   static defaultProps = {
-    tabBarPosition: 'top',
+    tabBarPosition: 'bottom',
     renderTabBar: (props: TabBarProps<T>) => <TabBar {...props} />,
     swipeEnabled: true,
   };
